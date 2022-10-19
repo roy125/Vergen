@@ -26,6 +26,7 @@
     display: inline-block;
     margin: 0 20px;
     position: relative;
+    text-shadow: #000000;
 }
 .navbar ul li a{
     text-decoration: none;
