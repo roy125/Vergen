@@ -50,32 +50,39 @@
 }
 .card1 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
     margin: auto;
     text-align: center;
     position: static;
-    border: 3px solid #a421ad;
-    display: table;
+    border: 3px solid #bf00ff;
+    width: 75%;
+    padding: 0 10px;
 }
 .card2 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
     margin: auto;
     text-align: center;
     position: static;
     border: 3px solid #ff0000;
-    display: table;
+    width: 75%;
+    padding: 0 10px;
 }
 .card3 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
     margin: auto;
     text-align: center;
     position: static;
     border: 3px solid #73AD21;
-    display: table;
+    width: 75%;
+    padding: 0 10px;
 }
 .title {
     color: #000000;
     font-size: 18px;
+}
+.cards {
+    transform: translateY(50%);
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
 }
