@@ -47,25 +47,15 @@
 .navbar ul li:hover::after{
     width: 100%;
 }
-.profil{
-    font-family: sans-serif;
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
     text-align: center;
-    max-width: 200px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    padding: 20px;
 }
-.profil__bilde{
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin: 0 auto 20px auto;
-    display: block; 
+.title {
+    color: grey;
+    font-size: 18px;
 }
-.profil__navn{
-    font-size: 1.2em;
-    font-weight: bold;
-}
-.profil__tittel{
-    margin-bottom: 20px;
-}
+
+
