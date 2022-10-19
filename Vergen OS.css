@@ -54,6 +54,7 @@
     text-align: center;
     position: static;
     border: 3px solid #a421ad;
+    display: table;
 }
 .card2 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -62,6 +63,7 @@
     text-align: center;
     position: static;
     border: 3px solid #ff0000;
+    display: table;
 }
 .card3 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -70,6 +72,7 @@
     text-align: center;
     position: static;
     border: 3px solid #73AD21;
+    display: table;
 }
 .title {
     color: #000000;
