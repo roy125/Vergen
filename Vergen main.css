@@ -104,3 +104,7 @@ span{
 button:hover span{
     width: 105%;
 }
+.footer {
+    font-size: 20px;
+    background-color: #696969;
+}
