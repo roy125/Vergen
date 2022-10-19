@@ -1,2 +1,2 @@
-var d new date()
-document.getElementById("Date").innerHTML = d;
+var date = new Date();
+document.getElementById("p1").innerHTML = date;

@@ -82,14 +82,17 @@
     border: 1px solid;
 }
 .boks {
-    float: right;
+    transform: translateY(50%);
+    position: static;
     background-color: lightgrey;
     width: 500px;
     height: 200px;
     border: 5px solid #ff0000;
-    padding: 90px;
-    margin: 100px;
+    padding: 50px;
+    margin: auto;
 }
-.info {
+.dato {
+    font-size: 18px;
+    font-weight: bold;
 
 }
