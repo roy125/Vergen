@@ -56,18 +56,18 @@
     border: 3px solid #bf00ff;
     width: 75%;
     padding: 0 10px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     height: 105%;
 }
 .card2 {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
     margin: auto;
     text-align: center;
     position: static;
     border: 3px solid #ff0000;
     width: 75%;
     padding: 0 10px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     height: 105%;
 }
 .card3 {
@@ -78,7 +78,7 @@
     border: 3px solid #73AD21;
     width: 75%;
     padding: 0 10px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     height: 105%;
 }
 .title {
