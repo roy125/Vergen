@@ -49,14 +49,16 @@
     width: 100%;
 }
 .cards {
+    text-shadow: 1px 1px rgb(158, 149, 149);
     transform: translateY(50%);
     display: grid;
+    font-weight: bold;
     justify-content: space-between;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: auto;
 }
 .card1 {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 #bf00ff;
     margin: auto;
     text-align: center;
     position: static;
@@ -66,7 +68,7 @@
     height: 105%;
 }
 .card2 {
-    box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgb(255, 0, 0);
     margin: auto;
     text-align: center;
     position: static;
@@ -76,7 +78,7 @@
     height: 105%;
 }
 .card3 {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 #73AD21;
     margin: auto;
     text-align: center;
     position: static;
