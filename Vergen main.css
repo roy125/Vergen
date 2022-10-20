@@ -82,7 +82,7 @@
     border: 1px solid;
 }
 .boks {
-    transform: translateY(50%);
+    transform: translateY(110%);
     position: static;
     background-color: lightgrey;
     width: 500px;
