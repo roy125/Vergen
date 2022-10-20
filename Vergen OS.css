@@ -56,7 +56,6 @@
     border: 3px solid #bf00ff;
     width: 75%;
     padding: 0 10px;
-    background-color: rgb(255, 255, 255);
     height: 105%;
 }
 .card2 {
@@ -67,7 +66,6 @@
     border: 3px solid #ff0000;
     width: 75%;
     padding: 0 10px;
-    background-color: rgb(255, 255, 255);
     height: 105%;
 }
 .card3 {
@@ -78,7 +76,6 @@
     border: 3px solid #73AD21;
     width: 75%;
     padding: 0 10px;
-    background-color: rgb(255, 255, 255);
     height: 105%;
 }
 .title {
