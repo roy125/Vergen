@@ -4,7 +4,7 @@
 }
 .banner{
     width: 100%;
-    height: 100vh;
+    height: 105vh;
     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(vergenhq.jpg);
     background-size: cover;
     background-position: center;
@@ -13,7 +13,7 @@
 .navbar{
     width: 85%;
     margin: auto;
-    padding: 0px 0;
+    padding: 20px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -75,32 +75,37 @@
     right: 16px;
     font-size: 18px;
   }
-button{
-    width: 300px;
-    height: 150px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 25px;
+.footer {
+    padding: 30px;
+    height: 5vh;
+    font-size: 20px;
+    background-color: #696969;
+    border: 1px solid;
+}
+.boks {
+    transform: translateY(110%);
+    position: static;
+    background-color: transparent;
+    width: 500px;
+    height: 200px;
+    border: 5px solid #696969;
+    padding: 50px;
+    margin: auto;
+}
+.dato {
+    font-size: 18px;
     font-weight: bold;
-    border: 2px solid #ff0000;
-    background: transparent;
-    color: azure;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
+    color: white;
+    text-shadow: 3px 3px black;
 }
-span{
-    background:#ff0000;
-    height: 100%;
-    width: 0%;
-    border-radius: 25px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: 0.3s;
+.list {
+    padding: 4px;
 }
-button:hover span{
-    width: 105%;
+.info {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 3px 3px black;
+    text-align: center;
+    padding-bottom: 8px;
 }
