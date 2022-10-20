@@ -66,23 +66,23 @@
     font-weight: 100;
     line-height: 25px;
 }
-  .container {
+  .container{
     position: relative;
   }
-  .bottomright {
+  .bottomright{
     position: absolute;
     bottom: 8px;
     right: 16px;
     font-size: 18px;
   }
-.footer {
+.footer{
     padding: 30px;
     height: 5vh;
     font-size: 20px;
     background-color: #696969;
     border: 1px solid;
 }
-.boks {
+.boks{
     transform: translateY(110%);
     position: static;
     background-color: transparent;
@@ -92,16 +92,16 @@
     padding: 50px;
     margin: auto;
 }
-.dato {
+.dato{
     font-size: 18px;
     font-weight: bold;
     color: white;
     text-shadow: 3px 3px black;
 }
-.list {
+.list{
     padding: 4px;
 }
-.info {
+.info{
     font-size: 30px;
     font-weight: bold;
     color: white;
