@@ -60,7 +60,7 @@
     margin: auto;
     text-align: center;
     position: static;
-    border: 3px solid #bf00ff;
+    border: 4px solid #bf00ff;
     width: 75%;
     padding: 0 10px;
     height: 105%;
@@ -70,7 +70,7 @@
     margin: auto;
     text-align: center;
     position: static;
-    border: 3px solid #ff0000;
+    border: 4px solid #ff0000;
     width: 75%;
     padding: 0 10px;
     height: 105%;
@@ -80,7 +80,7 @@
     margin: auto;
     text-align: center;
     position: static;
-    border: 3px solid #73AD21;
+    border: 4px solid #73AD21;
     width: 75%;
     padding: 0 10px;
     height: 105%;
