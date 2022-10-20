@@ -84,7 +84,7 @@
 }
 .boks{
     transform: translateY(110%);
-    position: static;
+    position: relative;
     background-color: transparent;
     width: 500px;
     height: 200px;
