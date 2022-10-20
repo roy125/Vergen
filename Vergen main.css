@@ -84,10 +84,10 @@
 .boks {
     transform: translateY(110%);
     position: static;
-    background-color: lightgrey;
+    background-color: transparent;
     width: 500px;
     height: 200px;
-    border: 5px solid #ff0000;
+    border: 5px solid #000000;
     padding: 50px;
     margin: auto;
 }
