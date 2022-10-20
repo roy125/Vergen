@@ -94,6 +94,8 @@
     font-size: 24px;
 }
 .footer {
+    padding: 30px;
+    height: 10vh;
     font-size: 20px;
     background-color: #696969;
     border: 1px solid;
