@@ -60,7 +60,7 @@
     color: white;
     text-shadow: 3px 3px black;
 }
-.card1 {
+.card1{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: auto;
     text-align: center;
@@ -70,6 +70,9 @@
     padding: 0 10px;
     height: 105%;
 }
+.card1 h1{
+    color: white;
+}
 .title {
     color: #3668ff;
     font-size: 28px;
@@ -77,6 +80,7 @@
 .title2{
     font-family:'Times New Roman', Times, serif;
     font-size: 24px;
+    color: white;
 }
 .cards {
     transform: translateY(50%);
