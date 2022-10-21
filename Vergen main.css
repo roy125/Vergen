@@ -80,7 +80,10 @@
     height: 5vh;
     font-size: 20px;
     background-color: #696969;
-    border: 1px solid;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 3px 3px black;
 }
 .boks{
     transform: translateY(110%);
@@ -92,7 +95,7 @@
     padding: 50px;
     margin: auto;
 }
-.contact_info{
+.list_items{
     font-size: 18px;
     font-weight: bold;
     color: white;
@@ -108,4 +111,10 @@
     text-shadow: 3px 3px black;
     text-align: center;
     padding-bottom: 8px;
+}
+.date{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 3px 3px black;
 }
