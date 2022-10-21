@@ -47,20 +47,6 @@
 .navbar ul li:hover::after{
     width: 100%;
 }
-.content{
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    text-transform: uppercase;
-    transform: translateY(-50%);
-    text-align: center;
-    color: #fff;
-}
-.content p{
-    margin: 20px auto;
-    font-weight: 100;
-    line-height: 25px;
-}
   .container{
     position: relative;
   }
