@@ -60,16 +60,15 @@
     color: white;
     text-shadow: 3px 3px black;
 }
-.cards{
+.prosjekt{
     transform: translateY(100%);
     display: grid;
     font-weight: bold;
     justify-content: space-between;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: auto;
-    color: white;
 }
-.card1{
+.prosjekt1{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: auto;
     text-align: center;
@@ -79,10 +78,10 @@
     padding: 0 10px;
     height: 105%;
 }
-.card1 h1{
+.prosjekt1 h1{
     color: white;
 }
-.card2{
+.prosjekt2{
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         margin: auto;
         text-align: center;
@@ -92,7 +91,7 @@
         padding: 0 10px;
         height: 105%;
 }
-.card3{
+.prosjekt3{
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         margin: auto;
         text-align: center;
@@ -102,11 +101,11 @@
         padding: 0 10px;
         height: 105%;
 }
-.text{
+.title{
     color: #3668ff;
     font-size: 28px;
 }
-.text2{
+.title2{
     font-family:'Times New Roman', Times, serif;
     font-size: 24px;
     color: white;
