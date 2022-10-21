@@ -61,7 +61,7 @@
     text-shadow: 3px 3px black;
 }
 .prosjekt{
-    transform: translateY(100%);
+    transform: translateY(40%);
     display: grid;
     font-weight: bold;
     justify-content: space-between;
