@@ -1,6 +1,6 @@
 var date = new Date();
-var current_date = date.getFullYear()+"-"+(date.getMonth()+1)+"-"+ date.getDate();
-var date_time = current_date+" "
+var current_date = date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate();
+var date_time = current_date + " "
 document.getElementById("date").innerHTML = date_time;
 
 function checkTime(i) {
@@ -9,6 +9,7 @@ function checkTime(i) {
     }
     return i;
 }
+
 function startTime() {
     var today = new Date();
     var h = today.getHours();
@@ -17,8 +18,9 @@ function startTime() {
     m = checkTime(m);
     s = checkTime(s);
     document.getElementById('time').innerHTML = h + ":" + m + ":" + s;
-    t = setTimeout(function() {
+    t = setTimeout(function () {
         startTime()
     }, 500);
 }
+
 startTime();
